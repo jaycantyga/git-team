@@ -13,6 +13,8 @@
 		698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698F48211E08C3DD00D5F200 /* Assets.xcassets */; };
 		698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698F48231E08C3DD00D5F200 /* LaunchScreen.storyboard */; };
 		698F48301E08C3DD00D5F200 /* GitTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F482F1E08C3DD00D5F200 /* GitTeamTests.swift */; };
+		D0FF3E971E09BF0F008B0820 /* Alex.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FF3E961E09BF0F008B0820 /* Alex.storyboard */; };
+		D0FF3E991E09BF54008B0820 /* AlexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF3E981E09BF54008B0820 /* AlexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		698F482B1E08C3DD00D5F200 /* GitTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		698F482F1E08C3DD00D5F200 /* GitTeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTeamTests.swift; sourceTree = "<group>"; };
 		698F48311E08C3DD00D5F200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FF3E961E09BF0F008B0820 /* Alex.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alex.storyboard; sourceTree = "<group>"; };
+		D0FF3E981E09BF54008B0820 /* AlexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				698F481C1E08C3DD00D5F200 /* BaseViewController.swift */,
+				D0FF3E981E09BF54008B0820 /* AlexViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				698F481E1E08C3DD00D5F200 /* Main.storyboard */,
+				D0FF3E961E09BF0F008B0820 /* Alex.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -205,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FF3E971E09BF0F008B0820 /* Alex.storyboard in Resources */,
 				698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */,
 				698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */,
 				698F48201E08C3DD00D5F200 /* Main.storyboard in Resources */,
@@ -227,6 +234,7 @@
 			files = (
 				698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */,
 				698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */,
+				D0FF3E991E09BF54008B0820 /* AlexViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +442,7 @@
 				698F48361E08C3DD00D5F200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		698F48371E08C3DD00D5F200 /* Build configuration list for PBXNativeTarget "GitTeamTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +451,7 @@
 				698F48391E08C3DD00D5F200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
