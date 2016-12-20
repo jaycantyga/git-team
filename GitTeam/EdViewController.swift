@@ -30,7 +30,7 @@ class EdViewController: BaseViewController {
         
         imageView.layer.cornerRadius = imageView.layer.borderWidth / 5
         
-        UIView.animate(withDuration: 5.0, delay: 2, options: UIViewAnimationOptions.curveEaseOut, animations: {
+        UIView.animate(withDuration: 11.0, delay: 2, options: UIViewAnimationOptions.curveEaseOut, animations: {
             self.imageView.alpha = 1.0
         }, completion: nil)
         
