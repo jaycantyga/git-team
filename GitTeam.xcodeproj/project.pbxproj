@@ -105,6 +105,7 @@
 		698F483A1E08C51600D5F200 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D52DD9D41E09BFE200F3B09F /* BenViewController.swift */,
 				698F481C1E08C3DD00D5F200 /* BaseViewController.swift */,
 			);
 			name = ViewControllers;
@@ -117,7 +118,6 @@
 				D52DD9D21E09BF7200F3B09F /* Ben.storyboard */,
 				D52DD9D81E09C05000F3B09F /* DataModel.swift */,
 				D52DD9D61E09C00900F3B09F /* TableViewCell.swift */,
-				D52DD9D41E09BFE200F3B09F /* BenViewController.swift */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -182,7 +182,6 @@
 				TargetAttributes = {
 					698F48161E08C3DD00D5F200 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = P29986982Q;
 						ProvisioningStyle = Automatic;
 					};
 					698F482A1E08C3DD00D5F200 = {
@@ -371,7 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P29986982Q;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GitTeam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jay.GitTeam;
@@ -384,7 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P29986982Q;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GitTeam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jay.GitTeam;

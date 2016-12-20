@@ -19,7 +19,7 @@ class BenViewController: BaseViewController, UITableViewDataSource, UITableViewD
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! TableViewCell
         cell.imageOutlet.image = arrayOfPresidents[indexPath.row].image
         cell.labelOutlet.text = arrayOfPresidents[indexPath.row].name
-        
+        cell.backgroundColor = UIColor.black
         return cell
     }
 
