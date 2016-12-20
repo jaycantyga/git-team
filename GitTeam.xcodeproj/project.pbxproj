@@ -13,6 +13,8 @@
 		698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698F48211E08C3DD00D5F200 /* Assets.xcassets */; };
 		698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698F48231E08C3DD00D5F200 /* LaunchScreen.storyboard */; };
 		698F48301E08C3DD00D5F200 /* GitTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F482F1E08C3DD00D5F200 /* GitTeamTests.swift */; };
+		8DB082BA1E09C4E5001AE081 /* israel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB082B91E09C4E5001AE081 /* israel.storyboard */; };
+		8DB082BC1E09C5E6001AE081 /* IsraelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB082BB1E09C5E6001AE081 /* IsraelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		698F482B1E08C3DD00D5F200 /* GitTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		698F482F1E08C3DD00D5F200 /* GitTeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTeamTests.swift; sourceTree = "<group>"; };
 		698F48311E08C3DD00D5F200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB082B91E09C4E5001AE081 /* israel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = israel.storyboard; sourceTree = "<group>"; };
+		8DB082BB1E09C5E6001AE081 /* IsraelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsraelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				698F481C1E08C3DD00D5F200 /* BaseViewController.swift */,
+				8DB082B91E09C4E5001AE081 /* israel.storyboard */,
+				8DB082BB1E09C5E6001AE081 /* IsraelViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */,
+				8DB082BA1E09C4E5001AE081 /* israel.storyboard in Resources */,
 				698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */,
 				698F48201E08C3DD00D5F200 /* Main.storyboard in Resources */,
 			);
@@ -225,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB082BC1E09C5E6001AE081 /* IsraelViewController.swift in Sources */,
 				698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */,
 				698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */,
 			);
@@ -434,6 +442,7 @@
 				698F48361E08C3DD00D5F200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		698F48371E08C3DD00D5F200 /* Build configuration list for PBXNativeTarget "GitTeamTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +451,7 @@
 				698F48391E08C3DD00D5F200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
