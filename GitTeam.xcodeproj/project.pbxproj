@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42BDFECB1E09BC9A0058A610 /* Aman.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BDFECA1E09BC9A0058A610 /* Aman.storyboard */; };
+		42BDFECD1E09BCCB0058A610 /* AmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BDFECC1E09BCCB0058A610 /* AmanViewController.swift */; };
 
 		046E94751E09BED200F4A21D /* Paul.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E94741E09BED200F4A21D /* Paul.storyboard */; };
 		046E94771E09BF3A00F4A21D /* PaulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E94761E09BF3A00F4A21D /* PaulViewController.swift */; };
@@ -78,6 +80,8 @@
 		505F78531E09C03700BC8B9C /* Grace.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Grace.storyboard; sourceTree = "<group>"; };
 		505F78591E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = New_Year_wallpapers_children_santa_claus.jpg; sourceTree = "<group>"; };
 
+		42BDFECA1E09BC9A0058A610 /* Aman.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Aman.storyboard; sourceTree = "<group>"; };
+		42BDFECC1E09BCCB0058A610 /* AmanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmanViewController.swift; sourceTree = "<group>"; };
 		698F48171E08C3DD00D5F200 /* GitTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698F481A1E08C3DD00D5F200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698F481C1E08C3DD00D5F200 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +202,7 @@
 				4C8BB0DD1E09C11900B8B3DC /* OskarViewController.swift */,
 
 
+				42BDFECC1E09BCCB0058A610 /* AmanViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 
 
 
+				42BDFECA1E09BC9A0058A610 /* Aman.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -358,6 +364,7 @@
 				D5ADA5B11E09C52D008D407F /* Main.storyboard in Resources */,
 				4C8BB0E41E09DE6300B8B3DC /* Oskar.storyboard in Resources */,
 
+				42BDFECB1E09BC9A0058A610 /* Aman.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +400,7 @@
 
 				4C8BB0DE1E09C11900B8B3DC /* OskarViewController.swift in Sources */,
 
+				42BDFECD1E09BCCB0058A610 /* AmanViewController.swift in Sources */,
 				698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */,
 				846A70741E09BFFB001C2674 /* EdViewController.swift in Sources */,
 				505F78521E09BFF900BC8B9C /* GraceViewController.swift in Sources */,
