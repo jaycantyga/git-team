@@ -16,6 +16,10 @@
 		698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698F48231E08C3DD00D5F200 /* LaunchScreen.storyboard */; };
 		698F48301E08C3DD00D5F200 /* GitTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F482F1E08C3DD00D5F200 /* GitTeamTests.swift */; };
 
+		8DB082BA1E09C4E5001AE081 /* israel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB082B91E09C4E5001AE081 /* israel.storyboard */; };
+		8DB082BC1E09C5E6001AE081 /* IsraelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB082BB1E09C5E6001AE081 /* IsraelViewController.swift */; };
+
+
 		D0FF3E971E09BF0F008B0820 /* Alex.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FF3E961E09BF0F008B0820 /* Alex.storyboard */; };
 		D0FF3E991E09BF54008B0820 /* AlexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF3E981E09BF54008B0820 /* AlexViewController.swift */; };
 		D52DD9D31E09BF7200F3B09F /* Ben.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52DD9D21E09BF7200F3B09F /* Ben.storyboard */; };
@@ -23,6 +27,7 @@
 		D52DD9D71E09C00900F3B09F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DD9D61E09C00900F3B09F /* TableViewCell.swift */; };
 		D52DD9D91E09C05000F3B09F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DD9D81E09C05000F3B09F /* DataModel.swift */; };
 		D5ADA5B11E09C52D008D407F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5ADA5B01E09C52D008D407F /* Main.storyboard */; };
+
 
 /* End PBXBuildFile section */
 
@@ -50,6 +55,10 @@
 		698F482F1E08C3DD00D5F200 /* GitTeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTeamTests.swift; sourceTree = "<group>"; };
 		698F48311E08C3DD00D5F200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 
+		8DB082B91E09C4E5001AE081 /* israel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = israel.storyboard; sourceTree = "<group>"; };
+		8DB082BB1E09C5E6001AE081 /* IsraelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsraelViewController.swift; sourceTree = "<group>"; };
+
+
 		D0FF3E961E09BF0F008B0820 /* Alex.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alex.storyboard; sourceTree = "<group>"; };
 		D0FF3E981E09BF54008B0820 /* AlexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexViewController.swift; sourceTree = "<group>"; };
 		D52DD9D21E09BF7200F3B09F /* Ben.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ben.storyboard; sourceTree = "<group>"; };
@@ -57,6 +66,7 @@
 		D52DD9D61E09C00900F3B09F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		D52DD9D81E09C05000F3B09F /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		D5ADA5B01E09C52D008D407F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+
 
 /* End PBXFileReference section */
 
@@ -122,8 +132,12 @@
 				D52DD9D41E09BFE200F3B09F /* BenViewController.swift */,
 				698F481C1E08C3DD00D5F200 /* BaseViewController.swift */,
 
+				8DB082BB1E09C5E6001AE081 /* IsraelViewController.swift */,
+
+
 				D0FF3E981E09BF54008B0820 /* AlexViewController.swift */,
 				37C92EF91E09C1080051A229 /* DanViewController.swift */,
+
 
 			);
 			name = ViewControllers;
@@ -138,8 +152,12 @@
 				D52DD9D61E09C00900F3B09F /* TableViewCell.swift */,
 				698F481E1E08C3DD00D5F200 /* Main.storyboard */,
 
+				8DB082B91E09C4E5001AE081 /* israel.storyboard */,
+
+
 				D0FF3E961E09BF0F008B0820 /* Alex.storyboard */,
 				37C92EF71E09C0DC0051A229 /* Dan.storyboard */,
+
 
 			);
 			name = Storyboards;
@@ -245,7 +263,11 @@
 				37C92EF81E09C0DC0051A229 /* Dan.storyboard in Resources */,
 
 				698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */,
+
+				8DB082BA1E09C4E5001AE081 /* israel.storyboard in Resources */,
+
 				37C92EFC1E09C1AB0051A229 /* Dance.jpg in Resources */,
+
 				698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */,
 				D52DD9D31E09BF7200F3B09F /* Ben.storyboard in Resources */,
 				D5ADA5B11E09C52D008D407F /* Main.storyboard in Resources */,
@@ -266,9 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
+				8DB082BC1E09C5E6001AE081 /* IsraelViewController.swift in Sources */,
+
 				D52DD9D91E09C05000F3B09F /* DataModel.swift in Sources */,
 				D52DD9D51E09BFE200F3B09F /* BenViewController.swift in Sources */,
 				D52DD9D71E09C00900F3B09F /* TableViewCell.swift in Sources */,
+
 				698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */,
 				698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */,
 
