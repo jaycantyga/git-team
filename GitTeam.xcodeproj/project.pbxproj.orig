@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+		505F78521E09BFF900BC8B9C /* GraceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F78511E09BFF900BC8B9C /* GraceViewController.swift */; };
+		505F78541E09C03700BC8B9C /* Grace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505F78531E09C03700BC8B9C /* Grace.storyboard */; };
+		505F785A1E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 505F78591E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg */; };
 		0CC28C891E09C12400C56EE9 /* Richel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC28C881E09C12400C56EE9 /* Richel.storyboard */; };
 		0CC28C8B1E09C2D300C56EE9 /* RichelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC28C8A1E09C2D300C56EE9 /* RichelViewController.swift */; };
 		37C92EF81E09C0DC0051A229 /* Dan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C92EF71E09C0DC0051A229 /* Dan.storyboard */; };
 		37C92EFA1E09C1080051A229 /* DanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C92EF91E09C1080051A229 /* DanViewController.swift */; };
 		37C92EFC1E09C1AB0051A229 /* Dance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37C92EFB1E09C1AB0051A229 /* Dance.jpg */; };
+=======
 		4C8BB0DE1E09C11900B8B3DC /* OskarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BB0DD1E09C11900B8B3DC /* OskarViewController.swift */; };
-		4C8BB0E41E09DE6300B8B3DC /* Oskar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BB0E31E09DE6300B8B3DC /* Oskar.storyboard */; };
-		505F78521E09BFF900BC8B9C /* GraceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F78511E09BFF900BC8B9C /* GraceViewController.swift */; };
-		505F78541E09C03700BC8B9C /* Grace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505F78531E09C03700BC8B9C /* Grace.storyboard */; };
-		505F785A1E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 505F78591E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg */; };
+>>>>>>> oskar
 		698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F481A1E08C3DD00D5F200 /* AppDelegate.swift */; };
 		698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F481C1E08C3DD00D5F200 /* BaseViewController.swift */; };
 		698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698F48211E08C3DD00D5F200 /* Assets.xcassets */; };
 		698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698F48231E08C3DD00D5F200 /* LaunchScreen.storyboard */; };
 		698F48301E08C3DD00D5F200 /* GitTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F482F1E08C3DD00D5F200 /* GitTeamTests.swift */; };
-
-		EB219F7F1E09BED600646F7A /* Kelly.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB219F7E1E09BED600646F7A /* Kelly.storyboard */; };
-		EB219F811E09BF3700646F7A /* KellyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB219F801E09BF3700646F7A /* KellyViewController.swift */; };
-
-
-		EEB84F4D1E09BF0D000DF0AD /* Matthew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB84F4C1E09BF0D000DF0AD /* Matthew.storyboard */; };
-		EEB84F4F1E09BF59000DF0AD /* MatthewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB84F4E1E09BF59000DF0AD /* MatthewViewController.swift */; };
-
-		846A70741E09BFFB001C2674 /* EdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A70731E09BFFB001C2674 /* EdViewController.swift */; };
-		846A70761E09C32D001C2674 /* edStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846A70751E09C32D001C2674 /* edStoryboard.storyboard */; };
 		8DB082BA1E09C4E5001AE081 /* israel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB082B91E09C4E5001AE081 /* israel.storyboard */; };
 		8DB082BC1E09C5E6001AE081 /* IsraelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB082BB1E09C5E6001AE081 /* IsraelViewController.swift */; };
+
+
 		D0FF3E971E09BF0F008B0820 /* Alex.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FF3E961E09BF0F008B0820 /* Alex.storyboard */; };
 		D0FF3E991E09BF54008B0820 /* AlexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF3E981E09BF54008B0820 /* AlexViewController.swift */; };
 		D52DD9D31E09BF7200F3B09F /* Ben.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52DD9D21E09BF7200F3B09F /* Ben.storyboard */; };
@@ -43,6 +37,8 @@
 		D5ADA5B11E09C52D008D407F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5ADA5B01E09C52D008D407F /* Main.storyboard */; };
 
 
+		846A70741E09BFFB001C2674 /* EdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A70731E09BFFB001C2674 /* EdViewController.swift */; };
+		846A70761E09C32D001C2674 /* edStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846A70751E09C32D001C2674 /* edStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,16 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
+		505F78511E09BFF900BC8B9C /* GraceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraceViewController.swift; sourceTree = "<group>"; };
+		505F78531E09C03700BC8B9C /* Grace.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Grace.storyboard; sourceTree = "<group>"; };
+		505F78591E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = New_Year_wallpapers_children_santa_claus.jpg; sourceTree = "<group>"; };
 		0CC28C881E09C12400C56EE9 /* Richel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Richel.storyboard; path = ../Richel.storyboard; sourceTree = "<group>"; };
 		0CC28C8A1E09C2D300C56EE9 /* RichelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichelViewController.swift; sourceTree = "<group>"; };
 		37C92EF71E09C0DC0051A229 /* Dan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dan.storyboard; sourceTree = "<group>"; };
 		37C92EF91E09C1080051A229 /* DanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DanViewController.swift; sourceTree = "<group>"; };
 		37C92EFB1E09C1AB0051A229 /* Dance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dance.jpg; sourceTree = "<group>"; };
+=======
 		4C8BB0DD1E09C11900B8B3DC /* OskarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OskarViewController.swift; sourceTree = "<group>"; };
-		4C8BB0E31E09DE6300B8B3DC /* Oskar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Oskar.storyboard; sourceTree = "<group>"; };
-		505F78511E09BFF900BC8B9C /* GraceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraceViewController.swift; sourceTree = "<group>"; };
-		505F78531E09C03700BC8B9C /* Grace.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Grace.storyboard; sourceTree = "<group>"; };
-		505F78591E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = New_Year_wallpapers_children_santa_claus.jpg; sourceTree = "<group>"; };
+>>>>>>> oskar
 		698F48171E08C3DD00D5F200 /* GitTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698F481A1E08C3DD00D5F200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698F481C1E08C3DD00D5F200 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -76,17 +74,10 @@
 		698F482F1E08C3DD00D5F200 /* GitTeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTeamTests.swift; sourceTree = "<group>"; };
 		698F48311E08C3DD00D5F200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 
-		EB219F7E1E09BED600646F7A /* Kelly.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Kelly.storyboard; sourceTree = "<group>"; };
-		EB219F801E09BF3700646F7A /* KellyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KellyViewController.swift; sourceTree = "<group>"; };
-
-
-		EEB84F4C1E09BF0D000DF0AD /* Matthew.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Matthew.storyboard; sourceTree = "<group>"; };
-		EEB84F4E1E09BF59000DF0AD /* MatthewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatthewViewController.swift; sourceTree = "<group>"; };
-
-		846A70731E09BFFB001C2674 /* EdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdViewController.swift; sourceTree = "<group>"; };
-		846A70751E09C32D001C2674 /* edStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = edStoryboard.storyboard; path = ../edStoryboard.storyboard; sourceTree = "<group>"; };
 		8DB082B91E09C4E5001AE081 /* israel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = israel.storyboard; sourceTree = "<group>"; };
 		8DB082BB1E09C5E6001AE081 /* IsraelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsraelViewController.swift; sourceTree = "<group>"; };
+
+
 		D0FF3E961E09BF0F008B0820 /* Alex.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alex.storyboard; sourceTree = "<group>"; };
 		D0FF3E981E09BF54008B0820 /* AlexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexViewController.swift; sourceTree = "<group>"; };
 		D52DD9D21E09BF7200F3B09F /* Ben.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ben.storyboard; sourceTree = "<group>"; };
@@ -96,6 +87,8 @@
 		D5ADA5B01E09C52D008D407F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 
 
+		846A70731E09BFFB001C2674 /* EdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdViewController.swift; sourceTree = "<group>"; };
+		846A70751E09C32D001C2674 /* edStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = edStoryboard.storyboard; path = ../edStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,19 +153,23 @@
 				505F78511E09BFF900BC8B9C /* GraceViewController.swift */,
 				D52DD9D41E09BFE200F3B09F /* BenViewController.swift */,
 				698F481C1E08C3DD00D5F200 /* BaseViewController.swift */,
-
-				EB219F801E09BF3700646F7A /* KellyViewController.swift */,
-
-
-				EEB84F4E1E09BF59000DF0AD /* MatthewViewController.swift */,
+<<<<<<< HEAD
 
 				0CC28C8A1E09C2D300C56EE9 /* RichelViewController.swift */,
+
+
 				8DB082BB1E09C5E6001AE081 /* IsraelViewController.swift */,
+
+
 				D0FF3E981E09BF54008B0820 /* AlexViewController.swift */,
 				37C92EF91E09C1080051A229 /* DanViewController.swift */,
-				846A70731E09BFFB001C2674 /* EdViewController.swift */,
-				4C8BB0DD1E09C11900B8B3DC /* OskarViewController.swift */,
 
+
+
+				846A70731E09BFFB001C2674 /* EdViewController.swift */,
+=======
+				4C8BB0DD1E09C11900B8B3DC /* OskarViewController.swift */,
+>>>>>>> oskar
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -180,27 +177,25 @@
 		698F483B1E08C53600D5F200 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-
-				698F481E1E08C3DD00D5F200 /* Main.storyboard */,
-
-				EB219F7E1E09BED600646F7A /* Kelly.storyboard */,
-
-				EEB84F4C1E09BF0D000DF0AD /* Matthew.storyboard */,
-
-				4C8BB0E31E09DE6300B8B3DC /* Oskar.storyboard */,
 				505F78591E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg */,
+				698F481E1E08C3DD00D5F200 /* Main.storyboard */,
 				505F78531E09C03700BC8B9C /* Grace.storyboard */,
+
 				0CC28C881E09C12400C56EE9 /* Richel.storyboard */,
+
 				D5ADA5B01E09C52D008D407F /* Main.storyboard */,
 				D52DD9D21E09BF7200F3B09F /* Ben.storyboard */,
 				D52DD9D81E09C05000F3B09F /* DataModel.swift */,
 				D52DD9D61E09C00900F3B09F /* TableViewCell.swift */,
+				698F481E1E08C3DD00D5F200 /* Main.storyboard */,
+
 				8DB082B91E09C4E5001AE081 /* israel.storyboard */,
+
+
 				D0FF3E961E09BF0F008B0820 /* Alex.storyboard */,
 				37C92EF71E09C0DC0051A229 /* Dan.storyboard */,
+
 				846A70751E09C32D001C2674 /* edStoryboard.storyboard */,
-
-
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -266,7 +261,7 @@
 				TargetAttributes = {
 					698F48161E08C3DD00D5F200 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = P29986982Q;
+						DevelopmentTeam = K26E34N9J7;
 						ProvisioningStyle = Automatic;
 					};
 					698F482A1E08C3DD00D5F200 = {
@@ -302,27 +297,26 @@
 			buildActionMask = 2147483647;
 			files = (
 
-				EB219F7F1E09BED600646F7A /* Kelly.storyboard in Resources */,
-
 				D0FF3E971E09BF0F008B0820 /* Alex.storyboard in Resources */,
 				37C92EF81E09C0DC0051A229 /* Dan.storyboard in Resources */,
-				846A70761E09C32D001C2674 /* edStoryboard.storyboard in Resources */,
 
+				846A70761E09C32D001C2674 /* edStoryboard.storyboard in Resources */,
 				698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */,
+
 				505F78541E09C03700BC8B9C /* Grace.storyboard in Resources */,
 				698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */,
-
-				698F48201E08C3DD00D5F200 /* Main.storyboard in Resources */,
-				EEB84F4D1E09BF0D000DF0AD /* Matthew.storyboard in Resources */,
-
 				505F785A1E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg in Resources */,
+				698F48201E08C3DD00D5F200 /* Main.storyboard in Resources */,
 				8DB082BA1E09C4E5001AE081 /* israel.storyboard in Resources */,
+
 				37C92EFC1E09C1AB0051A229 /* Dance.jpg in Resources */,
+
 				698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */,
+
 				0CC28C891E09C12400C56EE9 /* Richel.storyboard in Resources */,
+
 				D52DD9D31E09BF7200F3B09F /* Ben.storyboard in Resources */,
 				D5ADA5B11E09C52D008D407F /* Main.storyboard in Resources */,
-				4C8BB0E41E09DE6300B8B3DC /* Oskar.storyboard in Resources */,
 
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,23 +336,22 @@
 			buildActionMask = 2147483647;
 			files = (
 
-				EB219F811E09BF3700646F7A /* KellyViewController.swift in Sources */,
-
-
-				EEB84F4F1E09BF59000DF0AD /* MatthewViewController.swift in Sources */,
-
 				8DB082BC1E09C5E6001AE081 /* IsraelViewController.swift in Sources */,
+
 				D52DD9D91E09C05000F3B09F /* DataModel.swift in Sources */,
 				D52DD9D51E09BFE200F3B09F /* BenViewController.swift in Sources */,
 				D52DD9D71E09C00900F3B09F /* TableViewCell.swift in Sources */,
-
 
 				698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */,
 				4C8BB0DE1E09C11900B8B3DC /* OskarViewController.swift in Sources */,
 				698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */,
 				846A70741E09BFFB001C2674 /* EdViewController.swift in Sources */,
+
 				505F78521E09BFF900BC8B9C /* GraceViewController.swift in Sources */,
+
 				0CC28C8B1E09C2D300C56EE9 /* RichelViewController.swift in Sources */,
+
+
 				D0FF3E991E09BF54008B0820 /* AlexViewController.swift in Sources */,
 				37C92EFA1E09C1080051A229 /* DanViewController.swift in Sources */,
 			);
@@ -489,7 +482,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = "";
+=======
+				DEVELOPMENT_TEAM = K26E34N9J7;
+>>>>>>> oskar
 				INFOPLIST_FILE = GitTeam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jay.GitTeam;
@@ -502,7 +499,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = "";
+=======
+				DEVELOPMENT_TEAM = K26E34N9J7;
+>>>>>>> oskar
 				INFOPLIST_FILE = GitTeam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jay.GitTeam;
