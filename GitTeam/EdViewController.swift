@@ -9,7 +9,7 @@
 import UIKit
 
 
-class EdViewController: UIViewController {
+class EdViewController: BaseViewController {
     
     
     @IBOutlet weak var imageView: UIImageView!
