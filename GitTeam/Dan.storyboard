@@ -38,6 +38,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="buttonOutlet" destination="rLo-UT-hGh" id="Khc-fW-Zlp"/>
                         <outlet property="myImage" destination="3zH-Rh-3B1" id="AnQ-Tu-yJ3"/>
                     </connections>
                 </viewController>

@@ -12,6 +12,9 @@ class DanViewController: BaseViewController {
    
    @IBOutlet weak var myImage: UIImageView!
    
+   @IBOutlet weak var buttonOutlet: UIButton!
+   
+   
    @IBAction func startDance(_ sender: Any) {
       print(myImage.frame)
       
@@ -19,6 +22,8 @@ class DanViewController: BaseViewController {
       
       UIView.animate(withDuration: 4, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 30, options: UIViewAnimationOptions.curveEaseInOut, animations: {
          self.myImage.frame.origin.y += 100
+      }, completion: { _ in
+            self.buttonOutlet.setTitle("You're a weird kid Lloyd...", for: .normal)
       })
       
    }
