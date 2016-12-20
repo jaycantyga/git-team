@@ -11,7 +11,7 @@ import UIKit
 class BaseViewController: UIViewController {
     
     private static var segueIds = [
-        "toPaul","toKelly", "toDan", "ToAlex", "ToIsrael", "toRichel", "toGrace", "toOskar", "toEd", "toMatt"
+        "toAman", "toPaul","toKelly", "toDan", "ToAlex", "ToIsrael", "toRichel", "toGrace", "toOskar", "toEd", "toMatt"
     ]
     
     var index : Int {
