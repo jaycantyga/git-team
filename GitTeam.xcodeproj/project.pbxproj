@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
+		505F78521E09BFF900BC8B9C /* GraceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F78511E09BFF900BC8B9C /* GraceViewController.swift */; };
+		505F78541E09C03700BC8B9C /* Grace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505F78531E09C03700BC8B9C /* Grace.storyboard */; };
+		505F785A1E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 505F78591E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg */; };
 		0CC28C891E09C12400C56EE9 /* Richel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC28C881E09C12400C56EE9 /* Richel.storyboard */; };
 		0CC28C8B1E09C2D300C56EE9 /* RichelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC28C8A1E09C2D300C56EE9 /* RichelViewController.swift */; };
-
 		37C92EF81E09C0DC0051A229 /* Dan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C92EF71E09C0DC0051A229 /* Dan.storyboard */; };
 		37C92EFA1E09C1080051A229 /* DanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C92EF91E09C1080051A229 /* DanViewController.swift */; };
 		37C92EFC1E09C1AB0051A229 /* Dance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37C92EFB1E09C1AB0051A229 /* Dance.jpg */; };
-
 		698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F481A1E08C3DD00D5F200 /* AppDelegate.swift */; };
 		698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F481C1E08C3DD00D5F200 /* BaseViewController.swift */; };
 		698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698F48211E08C3DD00D5F200 /* Assets.xcassets */; };
 		698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698F48231E08C3DD00D5F200 /* LaunchScreen.storyboard */; };
 		698F48301E08C3DD00D5F200 /* GitTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F482F1E08C3DD00D5F200 /* GitTeamTests.swift */; };
-
 		8DB082BA1E09C4E5001AE081 /* israel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB082B91E09C4E5001AE081 /* israel.storyboard */; };
 		8DB082BC1E09C5E6001AE081 /* IsraelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB082BB1E09C5E6001AE081 /* IsraelViewController.swift */; };
 
@@ -47,14 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-
+		505F78511E09BFF900BC8B9C /* GraceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraceViewController.swift; sourceTree = "<group>"; };
+		505F78531E09C03700BC8B9C /* Grace.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Grace.storyboard; sourceTree = "<group>"; };
+		505F78591E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = New_Year_wallpapers_children_santa_claus.jpg; sourceTree = "<group>"; };
 		0CC28C881E09C12400C56EE9 /* Richel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Richel.storyboard; path = ../Richel.storyboard; sourceTree = "<group>"; };
 		0CC28C8A1E09C2D300C56EE9 /* RichelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichelViewController.swift; sourceTree = "<group>"; };
-
 		37C92EF71E09C0DC0051A229 /* Dan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dan.storyboard; sourceTree = "<group>"; };
 		37C92EF91E09C1080051A229 /* DanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DanViewController.swift; sourceTree = "<group>"; };
 		37C92EFB1E09C1AB0051A229 /* Dance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dance.jpg; sourceTree = "<group>"; };
-
 		698F48171E08C3DD00D5F200 /* GitTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698F481A1E08C3DD00D5F200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698F481C1E08C3DD00D5F200 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +138,7 @@
 		698F483A1E08C51600D5F200 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				505F78511E09BFF900BC8B9C /* GraceViewController.swift */,
 				D52DD9D41E09BFE200F3B09F /* BenViewController.swift */,
 				698F481C1E08C3DD00D5F200 /* BaseViewController.swift */,
 
@@ -160,6 +160,9 @@
 		698F483B1E08C53600D5F200 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				505F78591E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg */,
+				698F481E1E08C3DD00D5F200 /* Main.storyboard */,
+				505F78531E09C03700BC8B9C /* Grace.storyboard */,
 
 				0CC28C881E09C12400C56EE9 /* Richel.storyboard */,
 
@@ -174,8 +177,6 @@
 
 				D0FF3E961E09BF0F008B0820 /* Alex.storyboard */,
 				37C92EF71E09C0DC0051A229 /* Dan.storyboard */,
-
-
 
 			);
 			name = Storyboards;
@@ -282,6 +283,10 @@
 
 				698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */,
 
+				505F78541E09C03700BC8B9C /* Grace.storyboard in Resources */,
+				698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */,
+				505F785A1E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg in Resources */,
+				698F48201E08C3DD00D5F200 /* Main.storyboard in Resources */,
 				8DB082BA1E09C4E5001AE081 /* israel.storyboard in Resources */,
 
 				37C92EFC1E09C1AB0051A229 /* Dance.jpg in Resources */,
@@ -320,13 +325,13 @@
 				698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */,
 				698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */,
 
+				505F78521E09BFF900BC8B9C /* GraceViewController.swift in Sources */,
+
 				0CC28C8B1E09C2D300C56EE9 /* RichelViewController.swift in Sources */,
 
 
 				D0FF3E991E09BF54008B0820 /* AlexViewController.swift in Sources */,
 				37C92EFA1E09C1080051A229 /* DanViewController.swift in Sources */,
-
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
