@@ -9,11 +9,11 @@
 import UIKit
 
 class OskarViewController: BaseViewController  {
-
+   
    @IBOutlet weak var image: UIImageView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+   override func viewDidLoad() {
+      super.viewDidLoad()
+      
       let url = URL(string: "http://vmagazine.com/wp-content/uploads/2016/08/V103_COVERSTORY_HR_NOTEXT7-e1471987178392.jpg")!
       
       let request = NSMutableURLRequest(url: url)
@@ -33,13 +33,14 @@ class OskarViewController: BaseViewController  {
                   
                   self.image.image = bachImage
                   
-    }
-
+               }
+               
             }
             
          }
          
       }
+      task.resume()
       
    }
 }
