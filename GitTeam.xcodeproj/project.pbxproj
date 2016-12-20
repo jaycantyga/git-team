@@ -15,6 +15,7 @@
 		37C92EF81E09C0DC0051A229 /* Dan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C92EF71E09C0DC0051A229 /* Dan.storyboard */; };
 		37C92EFA1E09C1080051A229 /* DanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C92EF91E09C1080051A229 /* DanViewController.swift */; };
 		37C92EFC1E09C1AB0051A229 /* Dance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37C92EFB1E09C1AB0051A229 /* Dance.jpg */; };
+		4C8BB0DE1E09C11900B8B3DC /* OskarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BB0DD1E09C11900B8B3DC /* OskarViewController.swift */; };
 		698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F481A1E08C3DD00D5F200 /* AppDelegate.swift */; };
 		698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F481C1E08C3DD00D5F200 /* BaseViewController.swift */; };
 		698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698F48211E08C3DD00D5F200 /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		37C92EF71E09C0DC0051A229 /* Dan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dan.storyboard; sourceTree = "<group>"; };
 		37C92EF91E09C1080051A229 /* DanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DanViewController.swift; sourceTree = "<group>"; };
 		37C92EFB1E09C1AB0051A229 /* Dance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dance.jpg; sourceTree = "<group>"; };
+		4C8BB0DD1E09C11900B8B3DC /* OskarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OskarViewController.swift; sourceTree = "<group>"; };
 		698F48171E08C3DD00D5F200 /* GitTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698F481A1E08C3DD00D5F200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698F481C1E08C3DD00D5F200 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 
 
 				846A70731E09BFFB001C2674 /* EdViewController.swift */,
+				4C8BB0DD1E09C11900B8B3DC /* OskarViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				D52DD9D71E09C00900F3B09F /* TableViewCell.swift in Sources */,
 
 				698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */,
+				4C8BB0DE1E09C11900B8B3DC /* OskarViewController.swift in Sources */,
 				698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */,
 				846A70741E09BFFB001C2674 /* EdViewController.swift in Sources */,
 
