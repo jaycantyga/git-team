@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ySZ-X9-vAE">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Paul View Controller-->
+        <scene sceneID="q8U-2b-PAy">
+            <objects>
+                <viewController id="ySZ-X9-vAE" customClass="PaulViewController" customModule="GitTeam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wQp-IK-jgC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fmn-JF-bNt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QbN-fF-J95">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FRg-Ey-WNS">
+                                <rect key="frame" x="-0.5" y="183.5" width="375" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="hTE-au-4Dd"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ur0-Wd-0Rx">
+                                <rect key="frame" x="104" y="60" width="163" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96916875540000003" green="0.92977418999999994" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Peeka..."/>
+                                <connections>
+                                    <action selector="peekaTapped:" destination="ySZ-X9-vAE" eventType="touchUpInside" id="aMh-NB-28W"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ba0-zk-4zI">
+                                <rect key="frame" x="-0.5" y="183.5" width="375" height="300"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FRg-Ey-WNS" firstAttribute="centerX" secondItem="QbN-fF-J95" secondAttribute="centerX" id="Aes-iH-y3q"/>
+                            <constraint firstItem="ba0-zk-4zI" firstAttribute="centerX" secondItem="FRg-Ey-WNS" secondAttribute="centerX" id="O5a-N8-n9a"/>
+                            <constraint firstItem="ba0-zk-4zI" firstAttribute="height" secondItem="FRg-Ey-WNS" secondAttribute="height" id="SHG-ON-uzk"/>
+                            <constraint firstItem="FRg-Ey-WNS" firstAttribute="width" secondItem="QbN-fF-J95" secondAttribute="width" id="hL2-sl-GfU"/>
+                            <constraint firstItem="ba0-zk-4zI" firstAttribute="centerY" secondItem="FRg-Ey-WNS" secondAttribute="centerY" id="kuo-Qf-pIe"/>
+                            <constraint firstItem="FRg-Ey-WNS" firstAttribute="centerY" secondItem="QbN-fF-J95" secondAttribute="centerY" id="lC4-6f-aDI"/>
+                            <constraint firstItem="ba0-zk-4zI" firstAttribute="width" secondItem="FRg-Ey-WNS" secondAttribute="width" id="p4J-Qd-f4j"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="heightConstraint" destination="hTE-au-4Dd" id="HgL-fq-7BY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dPO-Cp-I9c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="47.226386806596707"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="boo.png" width="273" height="185"/>
+    </resources>
+</document>
