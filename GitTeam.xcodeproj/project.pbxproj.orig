@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42BDFECB1E09BC9A0058A610 /* Aman.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BDFECA1E09BC9A0058A610 /* Aman.storyboard */; };
-		42BDFECD1E09BCCB0058A610 /* AmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BDFECC1E09BCCB0058A610 /* AmanViewController.swift */; };
+<<<<<<< HEAD
 
 		046E94751E09BED200F4A21D /* Paul.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E94741E09BED200F4A21D /* Paul.storyboard */; };
 		046E94771E09BF3A00F4A21D /* PaulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E94761E09BF3A00F4A21D /* PaulViewController.swift */; };
@@ -25,15 +24,15 @@
 		505F78541E09C03700BC8B9C /* Grace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505F78531E09C03700BC8B9C /* Grace.storyboard */; };
 		505F785A1E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 505F78591E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg */; };
 
+=======
+		42BDFECB1E09BC9A0058A610 /* Aman.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BDFECA1E09BC9A0058A610 /* Aman.storyboard */; };
+		42BDFECD1E09BCCB0058A610 /* AmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BDFECC1E09BCCB0058A610 /* AmanViewController.swift */; };
+>>>>>>> aman
 		698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F481A1E08C3DD00D5F200 /* AppDelegate.swift */; };
 		698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F481C1E08C3DD00D5F200 /* BaseViewController.swift */; };
 		698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698F48211E08C3DD00D5F200 /* Assets.xcassets */; };
 		698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698F48231E08C3DD00D5F200 /* LaunchScreen.storyboard */; };
 		698F48301E08C3DD00D5F200 /* GitTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F482F1E08C3DD00D5F200 /* GitTeamTests.swift */; };
-
-		BA48C8731E09BF3000DF7DFB /* andrew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA48C8721E09BF3000DF7DFB /* andrew.storyboard */; };
-		BA48C8751E09BF9200DF7DFB /* AndrewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA48C8741E09BF9200DF7DFB /* AndrewViewController.swift */; };
-
 
 		EB219F7F1E09BED600646F7A /* Kelly.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB219F7E1E09BED600646F7A /* Kelly.storyboard */; };
 		EB219F811E09BF3700646F7A /* KellyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB219F801E09BF3700646F7A /* KellyViewController.swift */; };
@@ -55,7 +54,6 @@
 		D5ADA5B11E09C52D008D407F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5ADA5B01E09C52D008D407F /* Main.storyboard */; };
 
 
-
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 
 		046E94741E09BED200F4A21D /* Paul.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Paul.storyboard; sourceTree = "<group>"; };
 		046E94761E09BF3A00F4A21D /* PaulViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaulViewController.swift; sourceTree = "<group>"; };
@@ -85,8 +84,10 @@
 		505F78531E09C03700BC8B9C /* Grace.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Grace.storyboard; sourceTree = "<group>"; };
 		505F78591E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = New_Year_wallpapers_children_santa_claus.jpg; sourceTree = "<group>"; };
 
+=======
 		42BDFECA1E09BC9A0058A610 /* Aman.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Aman.storyboard; sourceTree = "<group>"; };
 		42BDFECC1E09BCCB0058A610 /* AmanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmanViewController.swift; sourceTree = "<group>"; };
+>>>>>>> aman
 		698F48171E08C3DD00D5F200 /* GitTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698F481A1E08C3DD00D5F200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698F481C1E08C3DD00D5F200 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -96,10 +97,6 @@
 		698F482B1E08C3DD00D5F200 /* GitTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		698F482F1E08C3DD00D5F200 /* GitTeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTeamTests.swift; sourceTree = "<group>"; };
 		698F48311E08C3DD00D5F200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-
-		BA48C8721E09BF3000DF7DFB /* andrew.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = andrew.storyboard; sourceTree = "<group>"; };
-		BA48C8741E09BF9200DF7DFB /* AndrewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndrewViewController.swift; sourceTree = "<group>"; };
-
 
 		EB219F7E1E09BED600646F7A /* Kelly.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Kelly.storyboard; sourceTree = "<group>"; };
 		EB219F801E09BF3700646F7A /* KellyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KellyViewController.swift; sourceTree = "<group>"; };
@@ -119,7 +116,6 @@
 		D52DD9D61E09C00900F3B09F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		D52DD9D81E09C05000F3B09F /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		D5ADA5B01E09C52D008D407F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
-
 
 
 /* End PBXFileReference section */
@@ -195,9 +191,7 @@
 				505F78511E09BFF900BC8B9C /* GraceViewController.swift */,
 				D52DD9D41E09BFE200F3B09F /* BenViewController.swift */,
 				698F481C1E08C3DD00D5F200 /* BaseViewController.swift */,
-
-				BA48C8741E09BF9200DF7DFB /* AndrewViewController.swift */,
-
+<<<<<<< HEAD
 
 				046E94761E09BF3A00F4A21D /* PaulViewController.swift */,
 
@@ -215,8 +209,9 @@
 				4C8BB0DD1E09C11900B8B3DC /* OskarViewController.swift */,
 
 
+=======
 				42BDFECC1E09BCCB0058A610 /* AmanViewController.swift */,
-
+>>>>>>> aman
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -226,9 +221,7 @@
 			children = (
 
 				698F481E1E08C3DD00D5F200 /* Main.storyboard */,
-
-				BA48C8721E09BF3000DF7DFB /* andrew.storyboard */,
-
+<<<<<<< HEAD
 
 				046E94741E09BED200F4A21D /* Paul.storyboard */,
 
@@ -252,8 +245,9 @@
 
 
 
+=======
 				42BDFECA1E09BC9A0058A610 /* Aman.storyboard */,
-
+>>>>>>> aman
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -367,14 +361,11 @@
 
 
 				698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */,
-
-				BA48C8731E09BF3000DF7DFB /* andrew.storyboard in Resources */,
-
 				505F78541E09C03700BC8B9C /* Grace.storyboard in Resources */,
-
 				698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */,
 
 				698F48201E08C3DD00D5F200 /* Main.storyboard in Resources */,
+<<<<<<< HEAD
 				EEB84F4D1E09BF0D000DF0AD /* Matthew.storyboard in Resources */,
 
 				505F785A1E09C27000BC8B9C /* New_Year_wallpapers_children_santa_claus.jpg in Resources */,
@@ -386,7 +377,9 @@
 				D5ADA5B11E09C52D008D407F /* Main.storyboard in Resources */,
 				4C8BB0E41E09DE6300B8B3DC /* Oskar.storyboard in Resources */,
 
+=======
 				42BDFECB1E09BC9A0058A610 /* Aman.storyboard in Resources */,
+>>>>>>> aman
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,16 +410,15 @@
 
 
 				698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */,
-
-				BA48C8751E09BF9200DF7DFB /* AndrewViewController.swift in Sources */,
-
+<<<<<<< HEAD
 
 				046E94771E09BF3A00F4A21D /* PaulViewController.swift in Sources */,
 
 				4C8BB0DE1E09C11900B8B3DC /* OskarViewController.swift in Sources */,
 
+=======
 				42BDFECD1E09BCCB0058A610 /* AmanViewController.swift in Sources */,
-
+>>>>>>> aman
 				698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */,
 				846A70741E09BFFB001C2674 /* EdViewController.swift in Sources */,
 				505F78521E09BFF900BC8B9C /* GraceViewController.swift in Sources */,
