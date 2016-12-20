@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pYS-9z-GtS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sfT-6k-uLT">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,67 +24,5 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="-543.77811094452773"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="BbM-pj-BBu">
-            <objects>
-                <viewController id="pYS-9z-GtS" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="1I8-da-m9B"/>
-                        <viewControllerLayoutGuide type="bottom" id="lQv-b8-039"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="emz-aW-HMl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back1" translatesAutoresizingMaskIntoConstraints="NO" id="MCz-4y-TIv">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ios_logo" translatesAutoresizingMaskIntoConstraints="NO" id="xSm-J2-JT2">
-                                <rect key="frame" x="123" y="531" width="128" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="MKi-8L-Bkr"/>
-                                    <constraint firstAttribute="width" constant="128" id="bPR-nz-MFL"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_israel" translatesAutoresizingMaskIntoConstraints="NO" id="Gcp-LO-Pcx">
-                                <rect key="frame" x="28" y="104" width="318" height="105"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="318" id="Qoe-Tg-qXI"/>
-                                    <constraint firstAttribute="height" constant="105" id="Vkx-nx-8jY"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Merry-Xmas" translatesAutoresizingMaskIntoConstraints="NO" id="isY-Ll-S5W">
-                                <rect key="frame" x="43" y="288" width="296" height="78"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="296" id="LJc-Wj-Zst"/>
-                                    <constraint firstAttribute="height" constant="78" id="yWQ-nU-eLJ"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="xSm-J2-JT2" firstAttribute="centerY" secondItem="emz-aW-HMl" secondAttribute="centerY" constant="261.5" id="2Is-xS-Fm6"/>
-                            <constraint firstItem="MCz-4y-TIv" firstAttribute="top" secondItem="emz-aW-HMl" secondAttribute="top" id="5uV-K2-Yby"/>
-                            <constraint firstItem="Gcp-LO-Pcx" firstAttribute="centerY" secondItem="emz-aW-HMl" secondAttribute="centerY" constant="-177" id="8P4-kB-I3S"/>
-                            <constraint firstItem="lQv-b8-039" firstAttribute="top" secondItem="MCz-4y-TIv" secondAttribute="bottom" id="Iw4-uM-A5L"/>
-                            <constraint firstItem="xSm-J2-JT2" firstAttribute="centerX" secondItem="emz-aW-HMl" secondAttribute="centerX" id="Jui-fa-fK0"/>
-                            <constraint firstItem="isY-Ll-S5W" firstAttribute="centerX" secondItem="emz-aW-HMl" secondAttribute="centerX" constant="3.5" id="ScI-BR-Djr"/>
-                            <constraint firstItem="Gcp-LO-Pcx" firstAttribute="centerX" secondItem="emz-aW-HMl" secondAttribute="centerX" id="TSx-RU-fYl"/>
-                            <constraint firstItem="MCz-4y-TIv" firstAttribute="leading" secondItem="emz-aW-HMl" secondAttribute="leading" id="U4N-Xf-4rM"/>
-                            <constraint firstAttribute="trailing" secondItem="MCz-4y-TIv" secondAttribute="trailing" id="ckE-Ha-GcP"/>
-                            <constraint firstItem="isY-Ll-S5W" firstAttribute="centerY" secondItem="emz-aW-HMl" secondAttribute="centerY" constant="-6.5" id="nkO-U1-5SB"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z6q-zf-uYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="944.79999999999995" y="-545.57721139430294"/>
-        </scene>
     </scenes>
-    <resources>
-        <image name="Merry-Xmas" width="1024" height="426"/>
-        <image name="back1" width="852" height="1608"/>
-        <image name="ios_logo" width="256" height="256"/>
-        <image name="logo_israel" width="677" height="172"/>
-    </resources>
 </document>

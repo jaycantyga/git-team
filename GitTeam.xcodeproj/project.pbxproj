@@ -102,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				698F481C1E08C3DD00D5F200 /* BaseViewController.swift */,
-				8DB082B91E09C4E5001AE081 /* israel.storyboard */,
 				8DB082BB1E09C5E6001AE081 /* IsraelViewController.swift */,
 			);
 			name = ViewControllers;
@@ -112,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				698F481E1E08C3DD00D5F200 /* Main.storyboard */,
+				8DB082B91E09C4E5001AE081 /* israel.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
