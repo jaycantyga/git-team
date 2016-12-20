@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DSo-KT-k3e">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Alex View Controller-->
+        <scene sceneID="idg-H1-WSF">
+            <objects>
+                <viewController id="DSo-KT-k3e" customClass="AlexViewController" customModule="GitTeam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="31h-Rz-HcB"/>
+                        <viewControllerLayoutGuide type="bottom" id="oif-t5-KuU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PZs-eY-fzv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="A3W-Br-fre">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hikarus-1" translatesAutoresizingMaskIntoConstraints="NO" id="iyq-S2-Nbx">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="303.5"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hikarus" translatesAutoresizingMaskIntoConstraints="NO" id="nWq-OF-7nK">
+                                        <rect key="frame" x="0.0" y="303.5" width="375" height="229"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hikarus3" translatesAutoresizingMaskIntoConstraints="NO" id="xfM-vW-RaI">
+                                        <rect key="frame" x="0.0" y="532.5" width="375" height="134.5"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="A3W-Br-fre" firstAttribute="height" secondItem="PZs-eY-fzv" secondAttribute="height" id="Kv6-rw-IJC"/>
+                            <constraint firstItem="A3W-Br-fre" firstAttribute="centerY" secondItem="PZs-eY-fzv" secondAttribute="centerY" id="atG-1W-hHU"/>
+                            <constraint firstItem="A3W-Br-fre" firstAttribute="centerX" secondItem="PZs-eY-fzv" secondAttribute="centerX" id="kmg-9m-U4g"/>
+                            <constraint firstItem="A3W-Br-fre" firstAttribute="width" secondItem="PZs-eY-fzv" secondAttribute="width" id="mxU-a7-ysX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="image1Outlet" destination="iyq-S2-Nbx" id="j7W-eW-AGe"/>
+                        <outlet property="image2Outlet" destination="nWq-OF-7nK" id="Clf-ha-gfX"/>
+                        <outlet property="image3Outlet" destination="xfM-vW-RaI" id="x1l-vc-IAb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j1B-0f-EnR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-242.40000000000001" y="-177.66116941529236"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Hikarus-1" width="678" height="678"/>
+        <image name="hikarus" width="512" height="512"/>
+        <image name="hikarus3" width="300" height="300"/>
+    </resources>
+</document>
