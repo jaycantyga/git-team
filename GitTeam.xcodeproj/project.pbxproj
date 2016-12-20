@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42BDFECB1E09BC9A0058A610 /* Aman.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BDFECA1E09BC9A0058A610 /* Aman.storyboard */; };
+		42BDFECD1E09BCCB0058A610 /* AmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BDFECC1E09BCCB0058A610 /* AmanViewController.swift */; };
 		698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F481A1E08C3DD00D5F200 /* AppDelegate.swift */; };
 		698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F481C1E08C3DD00D5F200 /* BaseViewController.swift */; };
 		698F48201E08C3DD00D5F200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698F481E1E08C3DD00D5F200 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42BDFECA1E09BC9A0058A610 /* Aman.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Aman.storyboard; sourceTree = "<group>"; };
+		42BDFECC1E09BCCB0058A610 /* AmanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmanViewController.swift; sourceTree = "<group>"; };
 		698F48171E08C3DD00D5F200 /* GitTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698F481A1E08C3DD00D5F200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698F481C1E08C3DD00D5F200 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				698F481C1E08C3DD00D5F200 /* BaseViewController.swift */,
+				42BDFECC1E09BCCB0058A610 /* AmanViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				698F481E1E08C3DD00D5F200 /* Main.storyboard */,
+				42BDFECA1E09BC9A0058A610 /* Aman.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -208,6 +214,7 @@
 				698F48251E08C3DD00D5F200 /* LaunchScreen.storyboard in Resources */,
 				698F48221E08C3DD00D5F200 /* Assets.xcassets in Resources */,
 				698F48201E08C3DD00D5F200 /* Main.storyboard in Resources */,
+				42BDFECB1E09BC9A0058A610 /* Aman.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				698F481D1E08C3DD00D5F200 /* BaseViewController.swift in Sources */,
+				42BDFECD1E09BCCB0058A610 /* AmanViewController.swift in Sources */,
 				698F481B1E08C3DD00D5F200 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +442,7 @@
 				698F48361E08C3DD00D5F200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		698F48371E08C3DD00D5F200 /* Build configuration list for PBXNativeTarget "GitTeamTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +451,7 @@
 				698F48391E08C3DD00D5F200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
