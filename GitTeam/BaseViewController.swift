@@ -22,7 +22,7 @@ class BaseViewController: UIViewController {
         
         super.viewDidLoad()
         
-        if index <= BaseViewController.segueIds.count {
+        if index < BaseViewController.segueIds.count {
             let button = UIBarButtonItem(barButtonSystemItem: .fastForward, target: self, action: #selector(forwardButtonHit(_:)))
             navigationItem.rightBarButtonItem = button
         }
